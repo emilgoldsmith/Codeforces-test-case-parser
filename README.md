@@ -19,3 +19,5 @@ for not checking answers, and:
 `./run.py a 1`
 
 for checking answers.
+
+In case you want to add more custom testcases to your tests during a contest with for example edge cases, change the number of test cases (the first number in the .txt file) and add your test case below with the correct parse break at the end (the exact string used for parse breaks can be changed easily in a constant at the top of each of the two scripts).
