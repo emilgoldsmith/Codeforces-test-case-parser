@@ -11,6 +11,9 @@ check_output = len(argv) > 2 and int(argv[2])
 inp = open(problem_letter.upper() + '.txt', 'r')
 out = open(problem_letter.upper() + '.out', 'r')
 num_cases = int(inp.readline())
+if int(out.readline()) != num_cases and check_output:
+  print("Error: Number of test cases in input and answer files are different")
+  exit()
 for i in range(1, num_cases + 1):
   case_input = ""
   line = inp.readline()
