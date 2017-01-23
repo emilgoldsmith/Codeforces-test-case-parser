@@ -1,6 +1,6 @@
 # Codeforces Test Case Parser
 
-This is two scripts that fit together. getTestCases.py accesses the Codeforces website, fetches the sample tests for each problem of the given contest, and puts them formatted into two seperate text files for input and correct output. run.py runs your executable on all the test cases, and if prompted to checks if they fit the correct answers.
+This is two scripts that fit together. getTestCases.py accesses the Codeforces website, fetches the sample tests for each problem of the given contest, and for each problem puts them formatted into two seperate text files for input and correct output. run.py runs your executable on all the test cases, and if prompted to, checks if they fit the correct answers.
 
 ## Usage
 
